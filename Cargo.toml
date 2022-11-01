@@ -5,4 +5,6 @@ edition = "2021"
 
 [dependencies]
 axum = { version = "0.5.17", features = ["ws"] }
+sqlx = { version = "0.6.2", features = ["runtime-tokio-rustls", "mysql"] }
+tokio = { version = "1.21.2", features = ["full"] }
 toml = "0.5.9"
